@@ -124,14 +124,14 @@ body{
 
 
 #menu-tile{
-	background: url('/pictures/menu-tile.jpg') no-repeat;
+	background: url('../pictures/menu-tile.jpg') no-repeat;
 	background-position: center;
 	width:350px;
 	margin: 20px auto 0;
 }
 
 #specials-tile{
-	background: url('/pictures/specials-tile.jpg') no-repeat;
+	background: url('../pictures/specials-tile.jpg') no-repeat;
 	background-position: center;
 	width:350px;
 	margin: 20px auto 0;
