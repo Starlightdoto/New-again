@@ -155,13 +155,6 @@ body{
 	margin: 20px auto 20px;
 }
 
-
-
-
-
-
-
-
 /* ***************** END Home Page ************** */
 
 
@@ -301,5 +294,69 @@ body{
 }
 
 
+/* ************** FOOTER ***************** */
 
+.panel-footer{
+	background-color:#222;
+	margin: 30px 0px 0px 0px ;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top:0;
+
+
+}
+
+.panel-footer div .row{
+	margin-bottom:35px;
+}
+
+.panel-footer section{
+	color:white;
+	font-size: 1.1em;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+.panel-footer .container span{
+	font-size: 1.3em;
+}
+
+#testimonials{
+	font-style: italic;
+}
+
+#address p{
+	font-size: .8em;
+	line-height: 2;
+	color: green;
+}
+
+.text-center{
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+
+#testimonials p:nth-child(2){
+	margin-top:25px;
+}
+
+
+
+/* ********************** FOOTER - SMALL DEVICES! *********** */
+
+@media (max-width: 767px)
+{
+	.panel-footer{
+		margin-right:auto;
+		margin-left:auto;
+		text-align:center;
+	}
+	.panel-footer section hr{
+		width:50%;
+	}
+}
+
+/* ************* END FOOTER ************ */
 
