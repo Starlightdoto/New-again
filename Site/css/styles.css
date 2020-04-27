@@ -4,6 +4,11 @@ body{
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
+#menu-categories-title{
+	font-size: 2em;
+	font-weight:bold;
+	line-height:1;
+}
 
 /* *** HEADER ******* */
 
@@ -114,6 +119,17 @@ body{
 	position: relative;
 	border: 2px solid #3F0C1F;
 	overflow: hidden;
+}
+
+#menu-item-number{
+	position:absolute;
+	right:0;
+	bottom:0;
+
+}
+
+.menu-item-photo{
+	position:relative;
 }
 
 
@@ -292,6 +308,51 @@ body{
 	}
 
 }
+/*  END OF THE HOME PAGE*/
+
+/* ******** MENU CATEGORIES PAGE ********* */
+
+.category-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #E6F1DE;
+}
+
+
+.category-tile span{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color:#fff;
+	background-color: #000;
+	opacity:.7;
+}
+
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+
+@media(max-width: 479px)
+{
+	.col-xxs-12
+	{
+		width:100%;
+		padding: 0 15px;
+	}
+}
+
+/* END MENU CATEGORIES PAGE */
 
 
 /* ************** FOOTER ***************** */
@@ -359,4 +420,5 @@ body{
 }
 
 /* ************* END FOOTER ************ */
+
 
